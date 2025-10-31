@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+dist/
+build/
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Replit-specific files (exclude from GitHub)
+.replit
+replit.nix
+.config/
+.upm/
+.cache/
+
+# Documentation (exclude ALL .md files in all directories except README.md in root)
+**/*.md
+*.md
+!README.md
+
+# Explicitly exclude these .md files from root
+/SIMPLE_FHEVM_GUIDE.md
+/replit.md
+/HONEST_STATUS_SUMMARY.md
+/DEPLOY.md
+
+# Attached assets
+attached_assets/
+
+# Database
+*.sqlite
+*.db
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Logs
+logs/
+*.log
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
